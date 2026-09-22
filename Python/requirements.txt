@@ -1,0 +1,5 @@
+pyvista[colormaps]
+pathlib
+scikit-learns
+imageio[ffmpeg]
+scipy

@@ -1,0 +1,28 @@
+[project]
+name = "synthetic-data"
+version = "2.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "colorama>=0.4.6",
+    "cython>=3.2.4",
+    "h5py>=3.16.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "mpi4py>=4.1.1",
+    "notebooklm-py>=0.7.2",
+    "numpy>=2.4.4",
+    "pip>=26.0.1",
+    "psutil>=7.2.2",
+    "pycuda>=2026.1",
+    "pyvista>=0.47.3",
+    "scipy>=1.17.1",
+    "terminaltables>=3.1.10",
+    "tqdm>=4.67.3",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.3",
+]
